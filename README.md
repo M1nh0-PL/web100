@@ -5,10 +5,12 @@ Ireneusz Witek Laboratorium 4
 
 ## Opis
 Obraz Docker oparty na Ubuntu z zainstalowanym serwerem Apache.  
+
 Zawiera prostą stronę WWW z danymi studenta.
 
 ## Uruchomienie
-docker build -t web100 .
+docker build -t web100 . 
+
 docker run -d -p 8080:80 web100
 
 
@@ -23,7 +25,9 @@ Uproszczono konfigurację poprzez użycie jednej instrukcji CMD zamiast ENTRYPOI
 ## Warstwy obrazu
 
 Liczbę warstw sprawdzono przy użyciu polecenia:
+
 docker history web100
+
 Obraz ma 11 warstw.
 
 
