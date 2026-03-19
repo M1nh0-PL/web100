@@ -28,6 +28,6 @@ Liczbę warstw sprawdzono przy użyciu polecenia:
 
 docker history web100
 
-Obraz ma 11 warstw.
+Obraz ma 3 warstwy.
 
 
